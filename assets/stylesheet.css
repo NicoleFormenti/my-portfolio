@@ -35,6 +35,63 @@ a:active {
     justify-content: space-evenly;
     align-items: center;
 }
+.photo {
+    border-radius: 50%;
+}
+.about_container {
+    height: 750px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutme {
+    margin-right: 200px;
+    text-align: center;
+    font-size: 34px;
+}
+.languages {
+    border-radius: 50%;
+}
+.resume {
+    font-size: 30px;
+}
+.resume a {
+    text-decoration: underline;
+}
+.resume a:hover {
+    font-size: 30px;
+}
+.contactme {
+    height: 750px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+.contact_icon {
+    margin-right: 30px;
+}
 footer {
     height: 100px;
     margin-left: 20px;
