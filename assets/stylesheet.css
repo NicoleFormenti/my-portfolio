@@ -37,6 +37,8 @@ a:active {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .photo {
     border-radius: 50%;
