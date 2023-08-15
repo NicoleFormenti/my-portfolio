@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="myNav">
         <a href="aboutme.html">About Me</a>
         <a href="myprojects.html">My Projects</a>
         <a href="contact.html">Contact Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div class="main_section">
         <div class="introduction">
@@ -25,7 +29,7 @@
             </p>
         </div>
         <div class="my_photo">
-            <img class="photo" src="https://avatars.githubusercontent.com/u/133660535?v=4" alt="profile photo" width="400px" height="400px">
+            <img class="photo" src="https://avatars.githubusercontent.com/u/133660535?v=4" alt="profile photo" width="300px" height="300px">
         </div>
     </div>
     <footer>
@@ -39,5 +43,15 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968701.png" alt="figma icon" width="48px" height="48px">
         </a>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </body>
 </html>
