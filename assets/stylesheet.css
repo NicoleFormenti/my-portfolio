@@ -237,11 +237,12 @@ footer {
     }
     .contactme {
         height: 750px;
-        margin-left: 100px;
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        font-size: 18px;
     }
     .email {
         display: flex;
