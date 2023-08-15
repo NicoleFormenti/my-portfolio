@@ -144,6 +144,10 @@ a:active {
     height: 300px;
     width: 500px;
 }
+.project_img {
+    width: 400px;
+    height: 200px;
+}
 footer {
     height: 100px;
     margin-left: 20px;
@@ -268,12 +272,14 @@ footer {
     .header {
         height: 100px;
         margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 34px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        text-align: center;
     }
     .header a {
         text-decoration: underline;
@@ -282,38 +288,40 @@ footer {
         font-size: 34px;
     }
     .projects_container {
-        height: 1000px;
-        font-size: 30px;
+        height: 750px;
+        font-size: 18px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-bottom: 80px;
-        column-gap: 80px;
         row-gap: 50px;
     }
     .projects_container a {
         text-decoration: underline;
     }
     .projects_container a:hover {
-        font-size: 30px;
+        font-size: 18px;
     }
     .ecommerce {
-        height: 300px;
-        width: 500px;
+        height: 80px;
+        width: 140px;
     }
     .harrypotter {
-        height: 300px;
-        width: 500px;
+        height: 80px;
+        width: 140px;
     }
     .solarbright {
-        height: 300px;
-        width: 500px;
+        height: 80px;
+        width: 140px;
     }
     .shopify {
-        height: 300px;
-        width: 500px;
+        height: 80px;
+        width: 140px;
+    }
+    .project_img {
+        width: 110px;
+        height: 70px;
     }
     footer {
         display: flex;
