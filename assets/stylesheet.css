@@ -213,6 +213,7 @@ footer {
         margin-right: 0px;
         margin-left: 0px;
         margin-bottom: 50px;
+        margin-top: 60px;
     }
     .aboutme {
         width: 100%;
@@ -299,7 +300,8 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        row-gap: 50px;
+        row-gap: 70px;
+        column-gap: 50px;
     }
     .projects_container a {
         text-decoration: underline;
@@ -385,6 +387,7 @@ footer {
         margin-right: 0px;
         margin-left: 0px;
         margin-bottom: 50px;
+        margin-top: 50px;
     }
     .aboutme {
         width: 100%;
