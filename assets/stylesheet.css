@@ -21,7 +21,7 @@ a:active {
     font-weight: bold;
 }
 .navbar {
-    height: 100px ;
+    height: 80px ;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -155,7 +155,7 @@ a:active {
     height: 200px;
 }
 footer {
-    height: 100px;
+    height: 80px;
     margin-left: 20px;
     display: flex;
     flex-direction: row;
@@ -173,6 +173,9 @@ footer {
         color: #c5c2c2;
         font-family: 'Marcellus', serif;
         font-size: 22px;
+    }
+    hr {
+        display: none;
     }
     .navbar a {
         display: none;
