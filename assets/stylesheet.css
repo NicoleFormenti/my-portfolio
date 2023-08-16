@@ -182,23 +182,27 @@ footer {
         left: 40px;
         display: block;
         color: #c5c2c2;
+        width: 17.16px;
+        height: 25px;
     }
     .navbar.responsive {
-        position: relative;
+        display: flex;
+        background-color:#c5c2c2;
+        height: 150px;
+        margin-top: 20px;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: flex-start;
     }
     .navbar.responsive a.icon {
-        position: absolute;
+        display: none;
     }
-    .navbar.responsive .icon {
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
     .navbar.responsive a {
         float: none;
         display: flex;
         flex-direction: column;
         text-align: left;
+        color: black;
     }
     .icon   {
         color: #c5c2c2;
